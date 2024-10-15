@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
+
+body {
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+}
+
+div {
+    margin-top: 12px;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+option {
+    font-family: "Mulish", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button {
+    background-color: #151568;
+    border: solid 1px #151568;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 12px;
+}
+
+button:hover {
+    background-color: transparent;
+    border: solid 1px #151568;
+    border-radius: 3px;
+    color: #151568;
+}
+
+@media screen and (max-width: 400px) {
+    .select-percent {
+        display: flex;
+        flex-direction: column;
+    }
+}
